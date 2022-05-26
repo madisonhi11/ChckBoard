@@ -1,0 +1,30 @@
+
+body{
+    background-color:#1E2323 ;
+}
+.box
+{color: #2A4747;
+background-color: #E0EFDE;
+padding: 20px;
+margin: 30px;
+font-size: 15px;
+text-align: center;
+border-width: 12px; ;
+border-color:#E08D79 ;
+border-style: solid ;
+}
+.container{
+    max-width: 961px;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+ 
+}
+a {
+    color:#993955;
+}
+img{
+    border-width: 2px; ;
+    border-color:#FFFFFA ;
+    border-style: solid ;
+}

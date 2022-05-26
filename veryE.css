@@ -1,0 +1,18 @@
+/* checkerboard */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.red{
+    background-color: red;
+    padding: 40px;
+ 
+}
+.black{
+    background-color: black;
+    padding: 40px;
+   
+}
+

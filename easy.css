@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Pushes flag center of the screen */
+    height: 100vh;
+    /* Viewport Height */
+    width: 100vw;
+    /* Viewport Width */
+
+  }
+  
+  .USAflag {
+    width: 900px;
+    min-width: 900px;
+    height: 450px;
+    position: relative;
+  }
+  
+  .stripe {
+    background-color: #9b1c2c;
+    width: 100%;
+    height: calc(450px / 13);
+    /* Makes all the stripes the same size */
+  }
+  .stripewhite {
+     background-color: white;
+  }
+  
+  .USAstars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 378px;
+    height: calc((450px / 13) * 7);
+    background-color: #041E42;
+    z-index: 1;
+    /* specifiecs the stack order */
+    padding: 12px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+/* We don't want the stars cramped together  */
+  }
+  
+  .starRsix {
+    display: flex;
+    justify-content: space-between;
+  }
+  .starRfive {
+    padding: 0px 33px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .star {
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: -4px;
+  }
